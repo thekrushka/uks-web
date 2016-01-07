@@ -107,6 +107,9 @@ USE_L10N = True
 
 USE_TZ = True
 
+# It will allow django to trust X-Forwarded-Host headers from a request.
+# http://stackoverflow.com/questions/8591189/django-admin-redirects-to-wrong-port-on-save
+USE_X_FORWARDED_HOST = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
